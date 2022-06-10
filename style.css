@@ -1,0 +1,80 @@
+:root{
+    /* --claro1:grey;
+    --claro2: rgb(190, 188, 188); */
+    --claro3: red;
+
+    /* --escuro1:
+    --escuro2: */
+    --escuro3: blue;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(167, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+main{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    border-bottom: 2px solid rgb(43, 167, 250);
+}
+
+#bt{
+    position: relative;
+    height: 40px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+#ball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+}
+
+.direita{
+    left: 45px;
+}
+
+.esquerda{
+    left: 5px;
+}
+
+
+#troca-tema{
+    height: 30px;
+    width: 80px;
+    opacity: 0;
+}
+/* #troca-tema:checked + #ball{
+    transform: translate(10px);
+} */
+
+p{
+    text-align: center;
+}
