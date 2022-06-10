@@ -1,13 +1,3 @@
-:root{
-    /* --claro1:grey;
-    --claro2: rgb(190, 188, 188); */
-    --claro3: red;
-
-    /* --escuro1:
-    --escuro2: */
-    --escuro3: blue;
-}
-
 *{
     padding: 0px;
     margin: 0px;
@@ -71,9 +61,6 @@ h1{
     width: 80px;
     opacity: 0;
 }
-/* #troca-tema:checked + #ball{
-    transform: translate(10px);
-} */
 
 p{
     text-align: center;
