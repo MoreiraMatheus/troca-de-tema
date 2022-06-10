@@ -1,0 +1,17 @@
+@keyframes direita{
+    from{
+        left: 5px;
+    }
+    to{
+        left: 45px;
+    }
+}
+
+@keyframes esquerda{
+    from{
+        left: 45px;
+    }
+    to{
+        left: 5px;
+    }
+}

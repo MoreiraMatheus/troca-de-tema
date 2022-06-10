@@ -48,10 +48,14 @@ h1{
 }
 
 .direita{
+    animation-name: direita;
+    animation-duration: 0.5s;
     left: 45px;
 }
 
 .esquerda{
+    animation-name: esquerda;
+    animation-duration: 0.5s;
     left: 5px;
 }
 
